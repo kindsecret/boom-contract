@@ -4,8 +4,8 @@
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-boom_contract = "2Tyc1yC5ohQhndwXfCQStFGrPzsu6HF62g7tkfKGh7gF"
+[programs.devnet]
+boom_contract = "DfAxfZR9zmTnon1ZcqGP2AcDoLEkfsF2fWQ3U7y6JwoQ"
 
 [registry]
 url = "https://api.apr.dev"
