@@ -12,10 +12,11 @@ use {
 };
 
 mod constants;
-declare_id!("2Tyc1yC5ohQhndwXfCQStFGrPzsu6HF62g7tkfKGh7gF");
+
+declare_id!("DfAxfZR9zmTnon1ZcqGP2AcDoLEkfsF2fWQ3U7y6JwoQ");
 
 #[program]
-mod boom_fun {
+mod boom_contract {
     use super::*;
     pub fn create_token_mint(
         ctx: Context<CreateTokenMint>,
